@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: style1;
+}
+
+@font-face {
+  font-family: "style1";
+  src: url("./Roboto/Roboto-Medium.ttf");
+}
+.container {
+  display: flex;
+  margin: 10% auto;
+  width: 280px;
+  height: 400px;
+  flex-direction: column;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 138, 253, 0.8649539613723755) 100%
+  );
+  border-radius: 10px;
+}
+.Form_container {
+  display: flex;
+  margin: 0px 20px;
+  margin-top: 5px;
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 8px 0px;
+}
+li label {
+  padding: 3px 0px;
+  align-self: flex-start;
+  font-size: 10.9px;
+}
+li input {
+  width: 230px;
+  height: 39px;
+  padding: 6px 8px 0px 30px;
+  font-size: 14px;
+  outline: none;
+  border-color: transparent transparent black;
+  background: transparent;
+  color: white;
+}
+input::placeholder {
+  color: white;
+  font-size: 12px;
+}
+.second_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.LoginHeading {
+  margin: 25px 115px;
+}
+.forget_div {
+  font-size: 10px;
+  font-weight: 400;
+  align-self: flex-start;
+  margin: -20px 19px;
+  cursor: pointer;
+}
+.forget_div:active {
+  color: rgba(17, 106, 135, 0.574);
+}
+.imgIcons {
+  width: 17px;
+  position: relative;
+  left: 5px;
+  bottom: 27px;
+}
+.LoginBtn {
+  margin: 45px 17px;
+  height: 27px;
+  width: 90%;
+  font-size: 18px;
+  border: transparent;
+  border-radius: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  background-image: white;
+}
